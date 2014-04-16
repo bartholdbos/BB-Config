@@ -43,4 +43,12 @@ public class Config {
 			e.printStackTrace();
 		}
 	}
+	
+	public String getProperty(String key){
+		return config.getProperty(key);
+	}
+	
+	public void setProperty(String key, String value){
+		config.setProperty(key, value);
+	}
 }
