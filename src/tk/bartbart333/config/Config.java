@@ -48,6 +48,10 @@ public class Config {
 		return config.getProperty(key);
 	}
 	
+	public int getPropertie(String key) throws NumberFormatException{
+		return Integer.valueOf(config.getProperty(key));
+	}
+	
 	public void setProperty(String key, String value){
 		config.setProperty(key, value);
 	}
