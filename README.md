@@ -1,4 +1,4 @@
 BB-Config
 =========
 
-A java librarie for configs
+A java library for configs
