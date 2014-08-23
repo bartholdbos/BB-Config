@@ -17,6 +17,7 @@ public class Config {
 		
 		if(!file.exists()){
 			try{
+				file.getParentFile().mkdirs();
 				file.createNewFile();
 			}catch(IOException e){
 				e.printStackTrace();
