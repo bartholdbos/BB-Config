@@ -48,7 +48,7 @@ public class Config {
 		return config.getProperty(key);
 	}
 	
-	public int getPropertie(String key) throws NumberFormatException{
+	public int getIntProperty(String key) throws NumberFormatException{
 		return Integer.valueOf(config.getProperty(key));
 	}
 	
